@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+# Kaggle 데이터는 재배포 금지
+data/*.csv
+data/*.zip
+# 실험 폴더: 설정·지표·제출 파일은 남기고 큰 파일만 제외
+runs/*/model.pt
+runs/*/log.txt
+runs/setup.log
+runs/setup.pid

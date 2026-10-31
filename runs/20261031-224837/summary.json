@@ -1,0 +1,9 @@
+{
+  "best_epoch": 17,
+  "epochs_run": 47,
+  "val_loss": 0.42215707898139954,
+  "val_acc": 0.8100558519363403,
+  "n_features": 43,
+  "test_positive_rate": 0.4090909090909091,
+  "seconds": 0.7
+}
