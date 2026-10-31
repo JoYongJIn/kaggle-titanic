@@ -1,7 +1,7 @@
 """
 titanic : 표 형태 데이터 이진 분류 신경망 (PyTorch MLP)
 
-ml-workbench 규약
+출력 규약
   - `--run-dir` 폴더에 metrics.jsonl(에폭별 지표), summary.json, submission.csv, model.pt 저장
   - 하이퍼파라미터는 모두 CLI 인자 (웹 UI와 Kaggle 노트북 양쪽에서 같은 방식으로 전달)
   - 데이터 경로는 `--data-dir` (Kaggle 노트북에서는 /kaggle/input/<competition>)

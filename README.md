@@ -3,8 +3,6 @@
 [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic) 대회를 신경망(MLP)으로 푼 프로젝트입니다.
 승객 정보(객실 등급, 성별, 나이, 가족 수 등)로 생존 여부를 예측하는 이진 분류 문제입니다.
 
-이 저장소는 [ml-workbench](https://github.com/JoYongJIn/ml-workbench) 템플릿으로 만들어졌으며, 학습 실행·지표 시각화·Kaggle 제출을 웹 대시보드에서 관리합니다.
-
 ## 결과
 
 | 실험 | 모델 | 검증 정확도 | Kaggle 공개 점수 |
@@ -61,7 +59,7 @@ Kaggle 노트북 버전은 `notebooks/titanic-nn.ipynb` 이며, 같은 `train.py
 ```
 titanic/
 ├── train.py            # 전처리 + MLP + 학습 + 예측 (단일 파일, Kaggle 노트북과 동일 코드)
-├── project.json        # 대회 slug, 타깃 열, 대시보드에 노출할 하이퍼파라미터 정의
+├── project.json        # 대회 slug, 타깃 열, 하이퍼파라미터 기본값
 ├── requirements.txt
 ├── data/               # Kaggle 데이터 (재배포 금지라 git 제외)
 ├── runs/<id>/          # 실험별 설정·지표·제출 파일 (가중치와 로그만 git 제외)

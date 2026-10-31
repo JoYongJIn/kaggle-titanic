@@ -1,6 +1,6 @@
 {
   "id": "neurocosm/titanic-nn",
-  "title": "Titanic MLP (ml-workbench)",
+  "title": "Titanic MLP",
   "code_file": "titanic-nn.ipynb",
   "language": "python",
   "kernel_type": "notebook",
